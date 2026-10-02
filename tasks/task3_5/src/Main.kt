@@ -7,4 +7,8 @@ import kotlin.io.path.writeText
 
 fun main() {
     // Add your code here
+    println("Enter your name \n")
+    val name = readln()
+    println(name)
+    println("Your name constains ${naem.length} characters!")
 }
