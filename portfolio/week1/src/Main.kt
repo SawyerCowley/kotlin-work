@@ -22,5 +22,4 @@ fun main(args: Array<String>) {
     val area = sqrt((s) * (s - a) * (s - b) * (s - c))
     //output
     println("Area = %.5f".format(area))
-    
 }
