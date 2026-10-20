@@ -16,5 +16,26 @@ class MedianTest : FreeSpec({
         }
     }
 
-    // Write four more tests here
+    "median of 1 is 1"{
+        val list = listOf(1f)
+        median(list) shouldBe 1
+    }
+
+    "median of 1,2 is 1.5"{
+        val list = listOf(1f,2f)
+        median(list) shouldBe 1.5f
+    }
+
+    "median of 1,2,3 is 2"{
+        val list = listOf(1f,2f,3f)
+        median(list) shouldBe 2
+    }
+
+    "median of 1,2,3,4 is 2.5"{
+        val list = listOf(1f,2f,3f,4f)
+        median(list) shouldBe 2.5f
+    }
+
 })
+
+
